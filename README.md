@@ -3,9 +3,9 @@ Python script for Gmail and the [Dream Cheeky Webmail Notifier](http://dreamchee
 
 ## Setup
 
-Be sure to create a API project in the [Google Developer Console]((https://console.developers.google.com/apis/), enable the gmail API's and download the credential file to the project folder as `client_secret.json`. 
+Be sure to create a API project in the [Google Developer Console](https://console.developers.google.com/apis/), enable the gmail API's and download the credential file to the project folder as `client_secret.json`. 
 
-Also be sure to build and install the [Webmail Notifier Linux driver(https://github.com/danielkaefer/usblamp) (though it says for Linux I have built this on OSX 10.11.4 with the addution of the `libusb` package available from [homebrew](http://brew.sh/)).
+Also be sure to build and install the [Webmail Notifier Linux driver](https://github.com/danielkaefer/usblamp) (though it says for Linux I have built this on OSX 10.11.4 with the addution of the `libusb` package available from [homebrew](http://brew.sh/)).
 
 ## Running
 
