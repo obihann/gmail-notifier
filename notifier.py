@@ -50,8 +50,10 @@ def main():
     results = service.users().labels().get(userId='me', id='INBOX').execute()
     messages = results.get('messagesUnread')
 
-    if (messages >= 0):
-        print(switchTo("red"))
+    if (messages > 0):
+        switchTo("red")
+    else:
+        switchTo("green")
 
 if __name__ == '__main__':
     main()
